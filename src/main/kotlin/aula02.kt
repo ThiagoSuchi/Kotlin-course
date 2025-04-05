@@ -18,7 +18,7 @@ fun main(args: Array<String>) {
         println(nome)
     }
     // Definindo um range para o forEach fazer oque for passado
-    (0..listaDeNomes.size - 1).forEach{
+    (0..listaDeNomes.size - 1).forEach {
         println(">>${listaDeNomes[it]}<<")
     }
 
